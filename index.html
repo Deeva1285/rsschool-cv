@@ -21,7 +21,7 @@
                 </header>
                 <main>
                     <section class="contacts_wrap">
-                        <h3>Contacts</h3>
+                        <h3 id="contact">Contacts</h3>
                         <ul>
                             <li class="contacts">
                                 <img class="contacts__img" src="./icons/tel_icon.svg" alt="Phone" width="40" height="40">
@@ -42,7 +42,7 @@
                         </ul>
                     </section>
                     <section class="skills_wrap">
-                        <h3>Skills</h3>
+                        <h3 id="skills">Skills</h3>
                         <ul>
                             <li class="skills">
                                 <img class="skills__img" src="./icons/html_icon.svg" alt="Html" width="40" height="40">
@@ -62,7 +62,7 @@
                             </li>
                             <li class="skills">
                                 <img class="skills__img" src="./icons/figma_icon.svg" alt="Figma" width="40" height="40">
-                                <p class="skills__inf">Figma/p>
+                                <p class="skills__inf">Figma</p>
                             </li>
                             <li class="skills">
                                 <img class="skills__img" src="./icons/vscode_icon.svg" alt="VScode" width="40" height="40">
@@ -71,7 +71,7 @@
                         </ul>
                     </section>
                     <section class="language_wrap">
-                        <h3>Language</h3>
+                        <h3 id="languages">Language</h3>
                         <ul>
                             <li class="language">
                                 <img class="language__img" src="./icons/round_icon.svg" alt="ru" width="40" height="40">
@@ -94,8 +94,20 @@
                 </main>
             </div>
             <div class="right-column">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about-me">About me</a></li>
+                        <li class="nav__item"><a href="#education">Education</a></li>
+                        <li class="nav__item"><a href="#courses">Courses</a></li>
+                        <li class="nav__item"><a href="#languages">Languages</a></li>    
+                        <li class="nav__item"><a href="#skills">Skills</a></li>
+                        <li class="nav__item"><a href="#code-example">Code</a></li>
+                        <li class="nav__item"><a href="#projects">Projects</a></li>
+                        <li class="nav__item"><a href="#contact">Contacts</a></li>
+                      </ul>
+                </nav>
                 <section class="about-me_wrap">
-                    <h3 class="about-me__title">About me</h3>
+                    <h3 class="about-me__title" id="about-me">About me</h3>
                     <p>Loren ipsun dolor sit anet, consectetur adipisci elit, 
                         sed eiusnod tenpor incidunt ut labore et dolore nagna 
                         aliqua. Ut enin ad ninin venian, quis nostrun 
@@ -116,14 +128,14 @@
                         officia deserunt nollit anin id est laborun.</p>   
                 </section>
                 <section class="educatin_wrap">
-                    <h3 class="education__title">Education</h3>
+                    <h3 class="education__title" id="education">Education</h3>
                     <p><strong>Belorussian State University:</strong></p>
                     <p>Faculty Of Journalism</p>
                     <p>Years: 2004 - 2009</p>
                     <p>Specialization: Internatoinal Journalism</p>   
                 </section>
                 <section class="courses_wrap">
-                    <h3 class="courses__title">Courses</h3>
+                    <h3 class="courses__title" id="courses">Courses</h3>
                     <p><strong>Loren ipsun dolor sit anet:</strong></p>
                     <p>Specialization: Loren ipsun dolor sit anet</p>  
                     <p><strong>Loren ipsun dolor sit anet:</strong></p>
@@ -133,8 +145,17 @@
                 </section>
             </div>
         </div>
-    </div>
-                
-                <footer></footer>
+        <footer>
+            <a class="my-github" href="https://github.com/Deeva1285">
+                <img class="github-icon" src="./icons/git_icon.svg" alt="Github" width="40" height="40">
+                <p class="footer_text">Like to see you!</p>
+              </a>
+              <p class="footer_text">© 2023</p>
+              <a href="https://rs.school/js/">
+                <img src="./icons/rs_school_icon.svg" alt="Rsschool" width="87" height="40">
+              </a>
+        </footer>
+    </div> 
 </body>
 </html>
+  

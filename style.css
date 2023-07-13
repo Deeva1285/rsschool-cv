@@ -47,7 +47,6 @@ img {
 header {
     padding: 30px;
     text-align: center;
-    background-color: ;
 }
 
 header img {
@@ -70,7 +69,7 @@ h1 {
 h2 {
     margin-bottom: 20px;
     letter-spacing: 2px;
-    color: rgb(142 114 103)
+    color: rgb(142 114 103);
 }
 
 main {
@@ -91,7 +90,7 @@ h3 {
     padding: 5px 20px;
     text-align: center;
     text-transform: uppercase;
-    background-color: rgb(218 187 168)
+    background-color: rgb(218 187 168);
 }
 
 .contacts_wrap h3 {
@@ -154,9 +153,51 @@ h3 {
 
 .right-column {
     width: 58%;
-    padding: 40px;
+    padding: 10px 40px 40px 40px;
+}
+
+.nav {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav a {
+    line-height: 50px;
+    color: rgb(142 114 103);
+    text-decoration: underline;
 }
 
 .about-me__title {
     margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-top: 20px;
+    background-color: rgb(218 187 168);
+}
+
+.footer_text {
+    color: rgb(142 114 103);
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.github-icon {
+    margin-right: 10px;
 }
